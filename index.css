@@ -1,0 +1,785 @@
+* {
+    margin: 0%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* header css start here */
+
+
+
+.navbar-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 30px;
+    background-color: rgb(244, 244, 244);
+    box-shadow: 2px 2px 20px rgba(255, 151, 103, 0.164);
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.navbar-1 img {
+    width: 10%;
+    /* filter: invert(100%); */
+    display: inline-block;
+}
+
+.nav-list li {
+    /* border: 3px solid green; */
+    float: left;
+    padding: 4px 3px;
+    margin: 17px 40px;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+
+
+.nav-list ul li {
+    height: 40px;
+    line-height: 43px;
+    margin: 8px 16px;
+    padding: 0px 10px;
+    display: flex;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #111;
+    letter-spacing: 1px;
+    transition: 0.4s ease-in-out;
+}
+
+.nav-list ul li:hover {
+    border-radius: 5px;
+    background-color: #F14D5D;
+    color: #fff;
+    box-shadow: 5px 10px 30px rgba(219, 74, 6, 0.5);
+    transition: all ease 0.2s;
+
+}
+
+.active {
+    background-color: #F14D5D;
+    color: #fff;
+    box-shadow: 5px 10px 30px rgba(219, 74, 6, 0.5);
+    transition: all ease 0.2s;
+    padding: 0px 12px;
+
+}
+
+
+/* wesite background img here */
+
+.center img {
+    width: 100%;
+    margin: 0%;
+    height: 80%;
+}
+
+
+.home-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+
+}
+
+.home-img {
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+
+.home-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.home-text {
+    width: 500px;
+    margin: 20px;
+}
+
+.home-text h1 {
+    font-size: 3.5rem;
+    line-height: 55px;
+    color: #22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.home-text p {
+    font-size: 1rem;
+    color: #777474;
+}
+
+.home-text span {
+    color: #F14D5D;
+    text-decoration: underline;
+}
+
+.home-text a {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #5a76fd;
+    text-transform: uppercase;
+    margin: auto;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #5a76fd;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.home-text a:hover {
+    background-color: #5a76fd;
+    color: #fff;
+    box-shadow: 5px 10px 30px rgba(90, 118, 253, 0.5);
+    transition: all ease 0.3s;
+}
+
+/* wesite background ends here */
+
+
+
+/* services content start */
+
+.services {
+    background-size: 1000px;
+    background-position: center;
+}
+
+.container123 {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container123 h2 {
+    line-height: 55px;
+    font-size: 2.2rem;
+    color: #22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.container123 p {
+    font-size: 1rem;
+    color: #777474;
+    width: 50%;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 2px 2px 20px rgba(90, 118, 253, 0.15);
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+    flex-grow: 1;
+}
+
+.box img {
+    height: 50px;
+    margin: 10px;
+}
+
+.box font {
+    font-size: 1.5rem;
+    color: #22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.box p {
+    font-size: 1rem;
+    color: #777474;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+}
+
+.box a {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #5a76fd;
+    text-transform: uppercase;
+    margin: auto;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #5a76fd;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.box a:hover {
+    background-color: #5a76fd;
+    color: #fff;
+    box-shadow: 5px 10px 30px rgba(90, 118, 253, 0.5);
+    transition: all ease 0.3s;
+}
+
+.box {
+    width: 200px;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+}
+
+
+/* services content ends */
+
+/* ################################################################################################################## */
+
+
+/* PROFILE START HERE */
+
+table {
+    margin: auto;
+    border: 3px solid;
+    width: 100%;
+    /* border-radius: 30px; */
+}
+
+tr {
+    margin: 2px;
+    padding: 2px;
+    /* border: 2px solid red; */
+
+}
+
+td {
+    border: 3px solid;
+    padding: 20px 0px 20px 0px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+/* tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+
+
+.std-data-row {
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid red;
+}
+
+.std-data-row {
+    border: 3px solid;
+    padding: 13px 115px;
+    margin: 0px;
+}
+
+.std-data-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.container2-profile {
+    margin: 21px;
+    width: 91%;
+    height: 460px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 19px 21px 0 rgb(0 0 0 / 27%), 0 1px 32px 0 rgb(0 0 0 / 68%);
+    overflow: auto;
+    transform: scale(1.01);
+    background-color: #fffbff;
+    /* display: flex; */
+    display: inline-block;
+}
+
+.container2-profile::-webkit-scrollbar {
+    display: none;
+}
+
+.contactus {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* PROFILE ENDS HERE  */
+
+
+/* ################################################################################################## */
+
+
+/* login start here  */
+
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.psw {
+    color: black;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 30%;
+    /* border-radius: 45%; */
+}
+
+label b {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    opacity: 70%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 30%;
+    border-radius: 29px;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+/* @-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+Change styles for span and cancel button on extra small screens
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+} */
+
+
+
+/* footer start here  */
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    padding: 10px 5%;
+    border-top: 1px solid rgba(231, 9, 9, 0.2);
+}
+
+footer p {
+    color: #000000;
+    font-size: 20px;
+}
+
+
+/* footer ends here */
+
+
+
+
+/* ########################################################################################################################################################## */
+
+/* ums starts here  */
+
+/* container of student data start here*/
+
+.box-1::-webkit-scrollbar {
+    display: none;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 2px 2px 20px rgba(90, 118, 253, 0.15);
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+    flex-grow: 1;
+}
+
+.box-1 {
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    overflow: auto;
+}
+
+
+.box-1 font {
+    font-size: 1.5rem;
+    color: #22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: 2px solid #F14D5D;
+    background-color: #F14D5D;
+    color: #fff;
+    box-shadow: 5px 10px 30px rgba(219, 74, 6, 0.5);
+    transition: all ease 0.3s;
+    padding: 2px 2px;
+    border-radius: 5px;
+    position: sticky;
+    top: 2px;
+}
+
+.font-backgrnd {
+    position: sticky;
+    top: 2px;
+    background-color: rgb(255 255 255 / 47%);
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    width: 100%;
+    height: 38px;
+}
+
+.box-1 ul li {
+    margin: 10px;
+    /* border: 3px solid; */
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 8px 6px, rgb(0 0 0 / 19%) 0px 6px 20px 0px;
+    padding: 3px;
+    border-radius: 5px;
+    /* text-align: center; */
+    /* justify-items: self-end; */
+    list-style: none;
+}
+
+
+.box-1 ul li:hover {
+    transform: scale(1.01);
+}
+
+
+
+/* container of student data ends here*/
+
+
+
+
+
+
+/* ums ends here  */
+
+
+/* about us page start here  */
+
+
+.list .list-2 {
+    color: black;
+}
+
+.list .list-2:hover{
+    color: white;
+}
+
+.typing-box {
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-img img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.about-img {
+    width: 500px;
+}
+
+.about-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    box-shadow: 2px 2px 20px rgba(90, 118, 253, 0.15);
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+    flex-grow: 1;
+}
+
+.name-txt font {
+    font-size: 55px;
+    color: #22252e;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border: 2px solid #F14D5D;
+    background-color: #F14D5D;
+    color: #fff;
+    box-shadow: 5px 10px 30px rgb(219 74 6 / 50%);
+    /* transition: all ease 0.3s; */
+    padding: 2px 2px;
+    border-radius: 12px;
+    position: sticky;
+    top: 2px;
+
+}
+
+
+.form-{
+    /* margin-top: 200px; */
+    /* border: 2px solid green; */
+    width: 421px;
+        height: 481px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px;
+        position: relative;
+}
+
+/* .container-apply{
+    border:2px solid #F14D5D;
+} */
+
+
+.atag{
+        width: auto;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid #5a76fd; */
+            text-transform: uppercase;
+            margin: auto;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: #5a76fd;
+            margin: 8px;
+            text-decoration: none;
+}
+
+
+.home-text .applynow{
+    width: auto;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #5a76fd;
+        text-transform: uppercase;
+        margin: auto;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: #5a76fd;
+        margin: 0px;
+        text-decoration: none;
+}
